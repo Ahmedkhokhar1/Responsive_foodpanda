@@ -1,0 +1,1302 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 1000vh;
+    background-color: white;
+}
+
+/* create  a navbar section */
+.pink{
+    background-color: #DB035D;
+    height: 60px;
+    
+}
+.pink .text-button{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 17px;
+    color: white;
+}
+
+.pink .text-button h2{
+    margin-right: 30px;
+}
+
+.pink .text-button button{
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-top: -5px;
+    cursor: pointer;
+    padding: 10px 20px 10px 20px;
+    color: white;
+    transition: .3s;
+}
+
+.pink .text-button button:hover{
+    background-color: white;
+    color: #DB035D;
+}
+
+@media screen and (max-width: 414px) {
+    .text-button{
+        width: 100%;
+    }
+    .text-button div h2{
+        font-size: 14px;
+        margin-top: 4px;
+    }
+    .text-button button{
+        display: inline-block;
+        border: 1px solid pink;
+        outline: none;
+        font-weight: bold;
+        display: block;
+        font-size: 10px;
+    }
+}
+
+
+/* create a second navbar section */
+.white{
+    background-color: white;
+}
+
+.white .white-heading{
+    padding: 15px 0px 15px 100px;
+    box-shadow: -30px 3px 20px lightgrey;
+    color: #DB035D;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 414px) {
+    .white{
+        width: 100%;
+    }
+    .white .white-heading h2{
+        height: 10px;
+        padding-left: 55px;
+        font-size: 22px;
+        display: inline;
+        
+    }
+}
+/* create a heading with input section */
+.heading{
+    margin-top: 150px;
+    margin-left: 80px;
+    display: flex;
+    margin-bottom: 130px;
+}
+.heading .one h2{
+    width: 630px;
+    font-size: 40px;
+}
+.heading .input {
+    margin-top: 30px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 10px 6px 20px lightgrey;
+    border-radius: 10px;
+    border: none;
+    width: 680px;
+}
+
+.heading .input .form input{
+    width: 530px;
+    padding: 12px;
+    margin-right: 10px;
+}
+
+.heading .input .form button{
+    color: white;
+    cursor: pointer;
+    border: none;
+    background-color: #DB035D;
+    padding: 14px;
+    border-radius: 6px;
+    transition: .3s;
+}
+
+.heading .input .form button:hover{
+    background-color: #A60B41;
+    transform: scale(1.2);
+}
+
+.image{
+    position: absolute;
+    top: 11%;
+    right: 10%;
+}
+
+.image img{
+    width: 700px;
+    height: 530px;
+    position: relative;
+    /* top: 10%; */
+    /* right: -20%; */
+    left: 40%;
+}
+
+/* create a heading with section */
+@media screen and (max-width:414px) {
+    .heading{
+        margin-top: 10px;
+    }
+    .main .one h2{
+        margin-top: 40px;
+        width: 200px;
+        font-size: 20px;
+        margin-left: -60px;
+    }
+    .heading  .input{
+        background: none;
+        box-shadow: none;
+    }
+    .main1 .image img{
+        width: 240px;
+        height: 230px;
+        z-index: -1;
+    }
+    .main .input{
+        background: none;
+        margin-top: 140px;
+    }
+    .main .input .form{
+        margin-left: 20px;
+        padding-top: 20px;
+    }
+    .main .input .form input{
+        margin-top: -100px;
+        z-index: 1;
+        border-radius: 5px;
+        padding: 13px 0;
+        padding-left: 10px;
+        background-color: white;
+        border: 1px solid lightgrey;
+        width: 370px;
+        display: block;
+        margin-left: -100px;
+    }
+    .main .input .form button{
+        width: 370px;
+        margin-top: 13px;
+        margin-left: -100px;
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .main .input .form button:hover{
+        background-color: #A60B41;
+    }
+    
+}
+
+
+
+
+
+/* create a prepare section part */
+.prepare{
+    background-color: white;
+    height: 150px;
+    width: 100%;
+}
+
+.prepare h3{
+    padding-top: 80px;
+    padding-left: 80px;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 414px) {
+    .prepare{
+        padding-top: 40px;
+        width: 444px;
+        height: 70px;
+        position: relative;
+    }
+    .prepare h3{
+        position: absolute;
+        bottom: 35%;
+        left: -9%;
+        /* right: -10%; */
+        display: block;
+        padding-top: 100px;
+        font-size: 18px;
+        height: 40px;
+        /* padding-right: 100px; */
+        width: 100%;
+        font-weight: bold;
+    }
+
+}
+
+
+
+
+
+/* create a image section */
+.image1{
+    position: relative;
+    margin-bottom: 340px;
+}
+.image1 img{
+    width: 100%;
+    height: 590px;
+
+}
+
+.white-div{
+    background-color: white;
+    border-radius: 10px;
+    width: 600px;
+    position: absolute;
+    top: 70%;
+    height: 400px;
+    box-shadow: 0px 5px 20px grey;
+    margin-left: 60px;
+    padding: 40px;
+}
+
+.white-div h3{
+    font-size: 27px;
+    margin-bottom: 20px;
+}
+
+.white-div p{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.white-div a{
+    background-color: #DB035D;
+    text-decoration: none;
+    color: white;
+    padding: 15px 15px;
+    border-radius: 5px;
+    transition: transform .3s;
+    display: inline-block;
+}
+
+.white-div a:hover{
+    background-color: #A60B41;
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 414px) {
+    .image1{
+        width: 414px;
+    }
+    .image1 img{
+        width: 414px;
+        height: 300px;
+    }
+    .white-div{
+        width: 391px;
+        position: absolute;
+        left: -12%;
+        top: 40%;
+        height: 479px;
+    }
+}
+
+
+
+
+
+
+
+/* create a heading section part */
+.header{
+    padding-left: 65px;
+}
+.header h1{
+    font-size: 35px;
+    font-weight: 500;
+}
+
+@media screen and (max-width:414px) {
+    .header{
+        padding-left: 46px;
+    }
+    .header h1{
+        font-size: 21px;
+    }
+}
+
+
+
+
+
+/* create a all images section part */
+.imagess{
+    display: flex;
+    margin-left: 60px;
+    margin-top: 40px;
+    position: relative;
+    margin-bottom: -380px;
+}
+.imagess img{
+    width: 270px;
+    margin-right: 30px;
+    border-radius: 10px;
+    transition: .4s;
+    height: 240px;
+}
+.imagess a{
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    position: relative;
+    top: -7%;
+    left: 2%;
+}
+
+.imagess .anchor{
+    position: relative;
+    top: -16%;
+}
+
+.imagess img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+@media  screen and (max-width:414px) {
+    .four-images{
+        max-width: 414px;
+        position: relative;
+        /* margin: 0 auto; */
+    }
+    .imagess{
+        width: 414px;
+        justify-content: space-between;
+        margin-left: 11px;
+        /* margin-bottom: 2px; */
+        
+    }
+    .imagess .image1 img{
+        width: 174px;
+        height: 151px;
+    }
+    .imagess img{
+        height: 150px;
+        width: 180px;
+    }
+    .imagess .anchor{
+        position: absolute;
+        top: 73%;
+        padding: 5px 13px;
+        font-size: 15px;
+        border-radius: 6px;
+    }
+    .imagess .image2 a{
+        padding: 5px 15px;
+        font-size: 15px;
+        border-radius: 6px;
+    }
+    .imagess .image3 a{
+        padding: 5px 15px;
+        font-size: 15px;
+        border-radius: 6px;
+    }
+    .imagess .image4 a{
+        padding: 5px 14px;
+        font-size: 15px;
+        border-radius: 6px;
+    }
+}
+
+
+
+
+
+
+
+
+
+/* second image part */
+.second-images{
+    display: flex;
+    margin-left: 60px;
+    margin-top: 40px;
+    margin-bottom: -40px;
+    position: relative;
+}
+.second-images img{
+    width: 270px;
+    margin-right: 30px;
+    border-radius: 10px;
+    transition: .4s;
+    height: 240px;
+}
+.second-images a{
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    position: relative;
+    top: -15%;
+    left: 2%;
+}
+
+.second-images img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+@media  screen and (max-width:414px) {
+    .second-images{
+        position: relative;
+    }
+    .second-images{
+        margin-top: 60px;
+        width: 414px;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 11px;
+    }
+    .second-images img{
+        height: 150px;
+        width: 180px;
+    }
+    .second-images .image5 a{
+        position: absolute;
+        top: 77%;
+        border-radius: 5px;
+        padding: 5px 13px;
+        font-size: 13px;
+    }
+    .second-images .image6 a{
+        position: absolute;
+        top: 77%;
+        left: 53%;
+        border-radius: 5px;
+        padding: 5px 13px;
+        font-size: 13px;
+    }
+    .second-images .image7 a{
+        position: absolute;
+        top: 77%;
+        left: 103%;
+        border-radius: 5px;
+        padding: 5px 13px;
+        font-size: 13px;
+    }
+    .second-images .image8 a{
+        position: absolute;
+        left: 154%;
+        top: 77%;
+        border-radius: 5px;
+        padding: 5px 13px;
+        font-size: 13px;
+    }
+}
+
+
+
+
+
+
+
+/* third image part */
+.third-images{
+    margin-bottom: -40px;
+    display: flex;
+    margin-left: 60px;
+    margin-top: 40px;
+    position: relative;
+}
+.third-images img{
+    width: 270px;
+    margin-right: 30px;
+    border-radius: 10px;
+    transition: .4s;
+    height: 240px;
+}
+.third-images a{
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    position: relative;
+    top: -15%;
+    left: 2%;
+}
+
+.third-images img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+
+@media  screen and (max-width:414px) {
+    .third-images{
+        position: relative;
+    }
+    .third-images{
+        margin-top: 60px;
+        width: 414px;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 11px;
+    }
+    .third-images img{
+        height: 150px;
+        width: 180px;
+    }
+    .third-images .image9 a{
+        position: absolute;
+        top: 77%;
+        border-radius: 5px;
+        padding: 5px 13px;
+        font-size: 13px;
+    }
+    .third-images .image10 a{
+        position: absolute;
+        top: 77%;
+        left: 53%;
+        border-radius: 5px;
+        padding: 5px 13px;
+        font-size: 13px;
+    }
+    .third-images .image11 a{
+        position: absolute;
+        top: 77%;
+        left: 103%;
+        border-radius: 5px;
+        padding: 5px 13px;
+        font-size: 13px;
+    }
+    .third-images .image12 a{
+        position: absolute;
+        left: 154%;
+        top: 77%;
+        border-radius: 5px;
+        padding: 5px 13px;
+        font-size: 13px;
+    }
+}
+
+
+
+
+/* fourth image part */
+.fourth-images{
+    margin-bottom: -40px;
+    display: flex;
+    margin-left: 60px;
+    margin-top: 40px;
+    position: relative;
+}
+.fourth-images img{
+    width: 270px;
+    margin-right: 30px;
+    border-radius: 10px;
+    transition: .4s;
+    height: 240px;
+}
+.fourth-images a{
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    position: relative;
+    top: -15%;
+    left: 2%;
+}
+
+.fourth-images img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+@media  screen and (max-width:414px) {
+    .fourth-images{
+        position: relative;
+    }
+    .fourth-images{
+        margin-top: 60px;
+        width: 414px;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 11px;
+    }
+    .fourth-images img{
+        height: 150px;
+        width: 180px;
+    }
+    .fourth-images .image13 a{
+        position: absolute;
+        top: 77%;
+        border-radius: 5px;
+        padding: 5px 13px;
+        font-size: 13px;
+    }
+    .fourth-images .image14 a{
+        position: absolute;
+        top: 77%;
+        left: 53%;
+        border-radius: 5px;
+        padding: 5px 13px;
+        font-size: 13px;
+    }
+    .fourth-images .image15 a{
+        position: absolute;
+        top: 77%;
+        left: 103%;
+        border-radius: 5px;
+        padding: 5px 13px;
+        font-size: 13px;
+    }
+    .fourth-images .image16 a{
+        position: absolute;
+        left: 154%;
+        top: 77%;
+        border-radius: 5px;
+        padding: 5px 13px;
+        font-size: 13px;
+    }
+}
+
+
+
+
+
+
+/* Fifth images part section */
+.fifth-images{
+    display: flex;
+    margin-left: 60px;
+    margin-top: 40px;
+    position: relative;
+    margin-bottom: -40px;
+}
+.fifth-images img{
+    width: 270px;
+    margin-right: 30px;
+    border-radius: 10px;
+    transition: .4s;
+    height: 240px;
+}
+.fifth-images a{
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    position: relative;
+    top: -15%;
+    left: 2%;
+}
+
+.fifth-images img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+@media  screen and (max-width:414px) {
+    .fifth-images{
+        position: relative;
+    }
+    .fifth-images{
+        margin-top: 60px;
+        width: 414px;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 11px;
+    }
+    .fifth-images img{
+        height: 150px;
+        width: 180px;
+    }
+    .fifth-images .image17 a{
+        position: absolute;
+        top: 77%;
+        border-radius: 5px;
+        padding: 5px 13px;
+        font-size: 13px;
+    }
+    .fifth-images .image18 a{
+        position: absolute;
+        top: 77%;
+        left: 53%;
+        border-radius: 5px;
+        padding: 5px 13px;
+        font-size: 13px;
+    }
+    .fifth-images .image19 a{
+        position: absolute;
+        top: 77%;
+        left: 103%;
+        border-radius: 5px;
+        padding: 5px 13px;
+        font-size: 13px;
+    }
+    .fifth-images .image20 a{
+        position: absolute;
+        left: 154%;
+        top: 77%;
+        border-radius: 5px;
+        padding: 5px 13px;
+        font-size: 13px;
+    }
+}
+
+
+
+
+
+
+
+/* six images part section */
+.six-images{
+    display: flex;
+    margin-left: 60px;
+    margin-top: 40px;
+    position: relative;
+    margin-bottom: -40px;
+}
+.six-images img{
+    width: 270px;
+    margin-right: 30px;
+    border-radius: 10px;
+    transition: .4s;
+    height: 240px;
+}
+.six-images a{
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    position: relative;
+    top: -15%;
+    left: 2%;
+}
+
+.six-images img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+@media  screen and (max-width:414px) {
+    .six-images{
+        position: relative;
+    }
+    .six-images{
+        margin-top: 60px;
+        width: 414px;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 11px;
+    }
+    .six-images img{
+        height: 150px;
+        width: 180px;
+    }
+    .six-images .image21 a{
+        position: absolute;
+        top: 77%;
+        border-radius: 5px;
+        padding: 5px 13px;
+        font-size: 13px;
+    }
+    .six-images .image22 a{
+        position: absolute;
+        top: 77%;
+        left: 53%;
+        border-radius: 5px;
+        padding: 5px 13px;
+        font-size: 13px;
+    }
+    .six-images .image23 a{
+        position: absolute;
+        top: 77%;
+        left: 103%;
+        border-radius: 5px;
+        padding: 5px 13px;
+        font-size: 13px;
+    }
+    .six-images .image24 a{
+        position: absolute;
+        left: 154%;
+        top: 77%;
+        border-radius: 5px;
+        padding: 5px 13px;
+        font-size: 13px;
+    }
+}
+
+
+
+
+
+
+
+
+/* seven images part section */
+.seven-images{
+    display: flex;
+    margin-left: 60px;
+    margin-top: 40px;
+    position: relative;
+}
+.seven-images img{
+    width: 270px;
+    margin-right: 30px;
+    border-radius: 10px;
+    transition: .4s;
+    height: 240px;
+}
+.seven-images a{
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    position: relative;
+    top: -15%;
+    left: 2%;
+}
+
+.seven-images img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+@media  screen and (max-width:414px) {
+    .seven-images{
+        position: relative;
+    }
+    .seven-images{
+        margin-top: 60px;
+        width: 414px;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 11px;
+    }
+    .seven-images img{
+        height: 150px;
+        width: 180px;
+    }
+    .seven-images .image25 a{
+        position: absolute;
+        top: 77%;
+        border-radius: 5px;
+        padding: 5px 13px;
+        font-size: 13px;
+    }
+    .seven-images .image26 a{
+        position: absolute;
+        top: 77%;
+        left: 53%;
+        border-radius: 5px;
+        padding: 5px 13px;
+        font-size: 13px;
+    }
+    .seven-images .image27 a{
+        position: absolute;
+        top: 77%;
+        left: 103%;
+        border-radius: 5px;
+        padding: 5px 13px;
+        font-size: 13px;
+    }
+    .seven-images .image28 a{
+        position: absolute;
+        left: 154%;
+        top: 77%;
+        border-radius: 5px;
+        padding: 5px 13px;
+        font-size: 13px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/* create a header h2 section part */
+.headerr h2{
+    margin-top: 40px;
+    margin-left: 60px;
+    font-size: 39px;
+    font-weight: 500;
+}
+
+@media screen and (max-width:414px) {
+    .headerr{
+        width: 414px;
+    }
+    .headerr h2{
+        margin-top: 20px;
+        margin-left: 15px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+}
+
+
+
+
+
+
+
+
+
+/* pink container create part  */
+.pink-container{
+    background-color: #DB035D;
+    margin-left: 60px;
+    margin-top: 20px;
+    width: 1170px;
+    border-radius: 15px;
+    height:350px;
+}
+.pink-container .header-part h2{
+    color: white;
+    padding-top: 40px;
+    padding-left: 30px;
+}
+
+
+.pink-container .scan{
+    display: flex;
+}
+
+.scan{
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.scan .images{
+    border: 1px solid white;
+    height: 93px;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+}
+.scan .images img{
+    width: 80px;
+}
+
+.scan .paragraph{
+    color: white;
+    width: 390px;
+    margin-left: 10px;
+}
+
+.scan .paragraph p{
+    line-height: 25px;
+    font-size: 20px;
+}
+
+.two-images{
+    display: flex;
+    justify-content: space-between;
+}
+.double-images img{
+    width: 620px;
+    margin-top: -170px;
+}
+
+@media screen and (max-width:414px) {
+    .pink-container{
+        margin-left: 10px;
+        width: 390px;
+        height: 500px;
+        position: relative;
+    }
+    .header-part h2{
+        font-size: 18px;
+    }
+    .scan .images{
+        border: none;
+    }
+    .images img{
+        display: none;
+    }
+    .scan .paragraph{
+        margin-top: -30px;
+        margin-left: -10px;
+        width: 340px;
+    }
+    .scan .paragraph p{
+        font-size: 19px;    
+        text-align: center;
+    }
+    .double-images img{
+        position: absolute;
+        top: 84%;
+        z-index: 1;
+        right: 2%;
+        width: 380px;
+    }
+}
+
+
+
+
+@media screen and (max-width:414px) {
+    .prepare{
+        margin-top: 70px;
+        margin-left: -30px;
+    }
+    .prepare h3{
+        font-size: 20px;
+    }
+}
+
+
+
+
+
+
+
+/* create a Take your office out to lunch section part */
+.double-container{  
+    margin-bottom: 300px;
+    position: relative;
+}
+.double-container .blue-div{
+    position: absolute;
+    height: 260px;
+    top: 80%;
+
+}
+
+
+
+
+
+/* create a blue image section part edit to responsive */
+@media screen and (max-width:414px) {
+    .double-container{
+        position: relative;
+    }
+    .image1{
+        width: 390px;
+    }
+    .image1 img{
+        height: 400px;
+        width: 560px;
+    }
+    .double-container .blue-div{
+        height: 270px;
+        position: absolute;
+        top: 70%;
+        left: -12%;
+    }
+}
+
+
+
+
+
+/* create a content paragraph section */
+.content-para{
+    margin-left: 60px;
+    width: 1200px;
+
+}
+.content-para h1, h2, h3{
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width:414px) {
+    .content-para{
+        width: 414px;
+        margin-left: 10px;
+        margin-bottom: -1000px;
+    }
+    .content-para h1{
+        line-height: 30px;
+    }
+    .content-para p{
+        width: 390px;
+    }
+    .content-para h2{
+        margin-top: 30px;
+    }
+    .content-para .capital{
+        font-size: 40px;
+    }
+    .content-para .ToGet{
+        margin-bottom: 25px;
+    }
+    .content-para .order{
+        margin-top: 30px;
+        width: 380px;
+    }
+    .content-para .width{
+        margin-left: 10px;
+        width: 380px;
+    }
+}
+.content-para p{
+    margin-bottom: 10px;
+    font-size: 19px;
+}
+
+
+/* create a foodpanda section part */
+.foodpanda{
+    margin-top: 30px;
+    margin-left: 60px;
+    margin-bottom: 200px;
+    
+}
+
+
+.foodpanda h4{
+    color: grey;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+
+@media screen and (max-width:414px) {
+    .foodpanda{
+        margin-top: -44%;
+        position: absolute;
+        top: 820%;
+        margin-left: 14px;
+    }
+}
+
+
+
+
+
+@media screen and (max-width:414px) {
+    .widthh{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+/* create a four anchor tag part add in this website */
+.main-container{
+    margin-left: 50px;
+    display: flex;
+}
+.main-container .paragraph{
+    width: 30%;
+}
+
+.main-container .paragraph p{
+    color: #505050;
+    font-size: 19px;
+}
+
+.four-anchor{
+    display: flex;
+    /* padding-left: 200px; */
+}
+.four-anchor .anchor1, .anchor2, .anchor3{
+    width: 240px;
+    margin-right: 30px;
+}
+
+.four-anchor a{
+    text-decoration: none;
+    color: #505050;
+    line-height: 25px;
+    font-size: 18px;
+    
+}
+
+
+.four-anchor a:hover{
+    color: #DB035D;
+}
+
+.width{
+    margin-top: 20px;
+    border: 1px solid #f5f5f5;
+    width: 1200px;
+    margin-left: 50px;
+}
+
+
+
+/* create a sequence anchor tag section part */
+.ten-anchor{
+    margin-left: 40px;
+    margin-top: 50px;
+    margin-bottom: 130px;
+}
+
+.ten-anchor a{
+    margin: 0px 15px 0px 15px;
+    color: #727171;
+    text-decoration: none;
+    font-size: 20px;
+    transition: .4s;
+}
+
+.ten-anchor a:hover{
+    color: #DA4594;
+    
+}
+
+@media screen and (max-width:414px){
+    .ten-anchor{
+        margin-top: -50%;
+        position: absolute;
+        top: 830%;
+        margin-left: 20px;
+    }
+    .ten-anchor a{
+        font-size: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/* create a four anchor tag part add in this website */
+@media screen and (max-width:414px) {
+    .main-container{
+        display: none;
+    }
+    
+}
